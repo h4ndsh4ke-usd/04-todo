@@ -1,6 +1,6 @@
-# WEBPACK Starter
+# 04-TODO
 
-Este es el proyecto inicial para crear aplicaciones utilizando webpack.
+Laboratorio seccion 4 - TODO
 
 ### Notas: 
 Reconstruir los módulos de node:
