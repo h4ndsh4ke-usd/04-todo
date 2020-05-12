@@ -1,9 +1,11 @@
-import { saludar } from './js/componentes.js';
+
+// Primero importamos los estilos.
 import './styles.css';
 
-// import img from '../src/assets/Retro-Coin-icon.png';
+// Usamos un archivo de index para realizar todas nuestras importaciones de classes!
+import { Todo, TodoList } from './classes';
+import { crearTodoHtml } from './js/componentes';
 
+export const todoList = new TodoList();
 
-const nombre = 'Lautaro';
-
-saludar(nombre);
+todoList.todos.forEach( todo  => crearTodoHtml( todo ));
